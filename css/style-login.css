@@ -36,8 +36,12 @@ body {
     flex-direction: column;
 }
 
+.container a{
+    display: flex;
+    justify-content: center;
+}
+
 .imagem{
-    align-self: center;
     order: -1;
 }
 
