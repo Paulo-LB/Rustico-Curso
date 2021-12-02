@@ -16,18 +16,13 @@ body {
     width: 1120px;
     height: 650px;
     display: flex;
-    align-self: center;
 }
 
 .login{
     width: 560px;
     height: 650px;
     background-color: #D3D3D3;
-    order: 1;
-}
-
-.login-area img{
-    order: 2;
+    order: -1;
 }
 
 .container{
@@ -36,12 +31,12 @@ body {
     flex-direction: column;
 }
 
-.container a{
+.imagem{
     display: flex;
     justify-content: center;
 }
 
-.imagem{
+a img{
     order: -1;
 }
 
@@ -77,8 +72,16 @@ input{
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: #B2935B;
+    color: #F0F1F0;
+}
 
 form a{
     text-decoration: none;
     color: #B2935B;
+}
+
+form a:hover{
+    color: #473C38;
 }
