@@ -80,6 +80,7 @@ input{
 form a{
     text-decoration: none;
     color: #B2935B;
+    justify-self: flex-start;
 }
 
 form a:hover{
