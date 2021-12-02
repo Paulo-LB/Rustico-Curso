@@ -36,7 +36,7 @@ body {
     flex-direction: column;
 }
 
-.container img{
+.container a img{
     align-self: center;
     order: -1;
 }
